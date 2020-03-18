@@ -16,13 +16,6 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-main {
-  height: 500px;
-  width: 100%;
-  background-color: blue;
-  display: flex;
-  justify-content: center;
-}
 nav {
   width: 671px;
 }
@@ -54,4 +47,26 @@ nav button {
   line-height: 26px;
   color: white;
   background-color: var(--navButton);
+}
+main {
+    height: 590px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+  }
+main .mainRow{
+    width: 80%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .mainCol{
+    width: 40%;
+    height: 590px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    flex-direction: column;
 }
