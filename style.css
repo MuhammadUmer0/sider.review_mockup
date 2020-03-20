@@ -111,3 +111,9 @@ main p {
   font-weight: 700;
   color: var(--toolsA);
 }
+section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
