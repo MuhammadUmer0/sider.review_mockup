@@ -117,3 +117,14 @@ section{
   align-items: center;
   flex-direction: column;
 }
+.sectionRow{
+  width: 90%;
+  height: 520px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sectionCol{
+  height: 217px;
+  width: 525px;
+}
