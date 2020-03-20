@@ -7,6 +7,9 @@
 :root {
   --navButton: #e05b48;
   --darkGrey: #2e3b4d;
+  --silver: #f4f8fc;
+  --toolsBorder: #e1e8f2;
+  --toolsA: #718799;
 }
 header {
   width: 80%;
@@ -50,11 +53,13 @@ button {
   background-color: var(--navButton);
 }
 main {
-  height: 590px;
+  height: 650px;
   width: 100%;
-  background-color: bisque;
+  background-color: var(--silver);
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 main .mainRow {
   width: 90%;
@@ -62,7 +67,7 @@ main .mainRow {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 8em;
+  margin-top: 9em;
 }
 main .mainCol {
   width: 550px;
@@ -83,6 +88,26 @@ main p {
   line-height: 32px;
   font-weight: 400;
 }
-.tools{
-    
+.tools {
+  width: 80%;
+  height: 80px;
+  margin-top: 3em;
+  border-top: 1px solid var(--toolsBorder);
+  background-color: var(--silver);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imgRow {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tools a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  color: var(--toolsA);
 }
