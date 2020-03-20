@@ -5,11 +5,12 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 :root {
-  --navButton: #e05b48;
+  --pink: #e05b48;
   --darkGrey: #2e3b4d;
   --silver: #f4f8fc;
   --toolsBorder: #e1e8f2;
   --toolsA: #718799;
+  --sectionColA: #d23923;
 }
 header {
   width: 80%;
@@ -50,7 +51,7 @@ button {
   font-weight: 600;
   line-height: 26px;
   color: white;
-  background-color: var(--navButton);
+  background-color: var(--pink);
 }
 main {
   height: 650px;
@@ -127,4 +128,34 @@ section{
 .sectionCol{
   height: 217px;
   width: 525px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sectionCol h1{
+  font-size: 28px;
+  line-height: 39px;
+  font-weight: 700;
+color: var(--darkGrey);
+}
+.sectionCol p{
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  color: var(--darkGrey);
+}
+.sectionCol .hr{
+  width: 60px;
+  border-top: 3px solid var(--pink);
+}
+.sectionCol a{
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color: var(--sectionColA);
+  text-decoration: none;
+}
+.sectionRow img{
+  width: 656px;
+  height: 383px;
 }
