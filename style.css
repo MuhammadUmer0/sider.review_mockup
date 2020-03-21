@@ -11,11 +11,12 @@
   --toolsBorder: #e1e8f2;
   --toolsA: #718799;
   --sectionColA: #d23923;
+  --developersA: #7a8799;
+  --devleoperColHover: #FBFBFB;
 }
 header {
   width: 80%;
   height: 70px;
-
   position: absolute;
   display: flex;
   justify-content: space-between;
@@ -173,11 +174,10 @@ section {
 .developers .content {
   height: 420px;
   width: 90%;
-  background-color: var(--pink);
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  color: var(--darkGrey);
+
 }
 .developers h1 {
   font-size: 32px;
@@ -196,5 +196,34 @@ section {
 .developersRow{
   width: 100%;
   height: 240px;
-  background-color: skyblue;
+  display: flex;
+  justify-content: space-between;
+}
+.developersRow a{
+  color: var(--darkGrey);
+  text-decoration: none;
+}
+.developersCol{
+  width: 383px;
+  height: 240px;
+  background-color: white;
+  box-shadow: 0 0 10px silver;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.developersCol img{
+  width: 98px;
+  height: 35px;
+}
+.developersCol .readFullStory {
+  height: 32px;
+  width: 345px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 700;
 }
