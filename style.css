@@ -112,56 +112,84 @@ main p {
   font-weight: 700;
   color: var(--toolsA);
 }
-section{
+section {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
 }
-.sectionRow{
+.sectionRow {
   width: 90%;
   height: 520px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.sectionCol{
+.sectionCol {
   height: 230px;
   width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.sectionCol h1{
+.sectionCol h1 {
   font-size: 28px;
   line-height: 39px;
   font-weight: 700;
-color: var(--darkGrey);
+  color: var(--darkGrey);
 }
-.sectionCol p{
+.sectionCol p {
   font-size: 16px;
   line-height: 29px;
   font-weight: 400;
   color: var(--darkGrey);
 }
-.sectionCol .hr{
+.sectionCol .hr {
   width: 60px;
   border-top: 3px solid var(--pink);
 }
-.sectionCol a{
+.sectionCol a {
   font-size: 16px;
   line-height: 26px;
   font-weight: 700;
   color: var(--sectionColA);
   text-decoration: none;
 }
-.sectionRow img{
+.sectionRow img {
   width: 656px;
   height: 383px;
 }
-#img1{
-  height: 275px;;
+#img1 {
+  height: 275px;
 }
-.developers{
-  
+.developers {
+  width: 100%;
+  height: 675px;
+  background-color: var(--silver);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.developers .content {
+  height: 420px;
+  width: 90%;
+  background-color: var(--pink);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: var(--darkGrey);
+}
+.developers h1 {
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: 700;
+}
+.developers .hr {
+  width: 100px;
+  border-bottom: 4px solid var(--darkGrey);
+}
+.developers p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
 }
