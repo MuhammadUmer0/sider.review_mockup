@@ -12,7 +12,8 @@
   --toolsA: #718799;
   --sectionColA: #d23923;
   --developersA: #7a8799;
-  --devleoperColHover: #FBFBFB;
+  --devleoperColHover: #fbfbfb;
+  --footerLi: #475466;
 }
 header {
   width: 80%;
@@ -177,7 +178,6 @@ section {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-
 }
 .developers h1 {
   font-size: 32px;
@@ -193,17 +193,17 @@ section {
   line-height: 26px;
   font-weight: 400;
 }
-.developersRow{
+.developersRow {
   width: 100%;
   height: 240px;
   display: flex;
   justify-content: space-between;
 }
-.developersRow a{
+.developersRow a {
   color: var(--darkGrey);
   text-decoration: none;
 }
-.developersCol{
+.developersCol {
   width: 383px;
   height: 240px;
   background-color: white;
@@ -214,7 +214,7 @@ section {
   align-items: center;
   text-align: center;
 }
-.developersCol img{
+.developersCol img {
   width: 98px;
   height: 35px;
 }
@@ -227,30 +227,30 @@ section {
   line-height: 32px;
   font-weight: 700;
 }
-.join{
+.join {
   width: 100%;
   height: 272px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: linear-gradient(145deg,#e05a48 40%,#feb158);
+  background-image: linear-gradient(145deg, #e05a48 40%, #feb158);
 }
-.join .content{
+.join .content {
   height: 115px;
   width: 550px;
-  color: white
+  color: white;
 }
-.join h1{
+.join h1 {
   font-size: 40px;
   line-height: 56px;
   font-weight: 700;
 }
-.join p{
+.join p {
   font-size: 16px;
   line-height: 29px;
   font-weight: 400;
 }
-.join button{
+.join button {
   width: 324px;
   height: 73px;
   background-color: white;
@@ -260,15 +260,28 @@ section {
   line-height: 26px;
   font-weight: 700;
 }
-footer{
+footer {
   height: 540px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-footer .content{
+footer .content {
   height: 380px;
   width: 90%;
-  border: 1px solid black;
+}
+footer .addressCol {
+  width: 362px;
+  height: 292px;
+}
+footer li {
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--footerLi);
+}
+.address {
+  margin-bottom: 3em;
 }
