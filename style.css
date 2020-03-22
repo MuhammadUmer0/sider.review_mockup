@@ -266,6 +266,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 footer .content {
   height: 380px;
@@ -302,4 +303,27 @@ footer .linksCol {
   font-weight: 400;
   color: var(--pink);
   margin-bottom: 2em;
+}
+.language {
+  width: 90%;
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--darkGrey);
+  display: flex;
+  justify-content: center;
+}
+.language a {
+  text-decoration: none;
+  color: inherit;
+}
+.copyright {
+  width: 90%;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: var(--footerLi);
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5em;
 }
