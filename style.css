@@ -270,6 +270,8 @@ footer {
 footer .content {
   height: 380px;
   width: 90%;
+  display: flex;
+  justify-content: space-between;
 }
 footer .addressCol {
   width: 362px;
@@ -280,8 +282,24 @@ footer li {
   font-size: 13px;
   line-height: 24px;
   font-weight: 400;
+  margin-bottom: 1em;
   color: var(--footerLi);
 }
 .address {
   margin-bottom: 3em;
+}
+footer .linksCol {
+  width: 181px;
+  height: 292px;
+}
+.linksCol a {
+  color: inherit;
+  text-decoration: none;
+}
+.heading {
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: 400;
+  color: var(--pink);
+  margin-bottom: 2em;
 }
