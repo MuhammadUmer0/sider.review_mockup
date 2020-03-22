@@ -261,5 +261,14 @@ section {
   font-weight: 700;
 }
 footer{
-  
+  height: 540px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .content{
+  height: 380px;
+  width: 90%;
+  border: 1px solid black;
 }
